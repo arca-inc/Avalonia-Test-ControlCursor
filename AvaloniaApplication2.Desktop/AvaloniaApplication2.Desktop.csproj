@@ -13,5 +13,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AvaloniaApplication2\AvaloniaApplication2.csproj" />
+	  <None Update="Lib\*.dll">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
   </ItemGroup>
 </Project>

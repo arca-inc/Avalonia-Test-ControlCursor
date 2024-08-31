@@ -14,10 +14,10 @@ namespace ControlCursor{
 	public static class Cursor {
 
 		#if (UNITY_64 || PLATFORM_ARCH_64 || UNITY_EDITOR_64)
-			[DllImport("libcursorpos_x64")]
+			[DllImport("Lib\\libcursorpos_x64")]
 			private static extern Point getCursorPos ();
 
-			[DllImport("libcursorpos_x64")]
+			[DllImport("Lib\\libcursorpos_x64")]
 			private static extern bool setCursorPos (Point p);
 		#elif (UNITY_32 || PLATFORM_ARCH_32 || UNITY_EDITOR_32)
 			[DllImport("libcursorpos_x86")]

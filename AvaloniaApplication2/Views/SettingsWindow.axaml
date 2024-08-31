@@ -4,11 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views="clr-namespace:AvaloniaApplication2.Views"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="AvaloniaApplication2.Views.MainWindow"
+        mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="200"
+        x:Class="AvaloniaApplication2.Views.SettingsWindow"
         Icon="/Assets/avalonia-logo.ico"
         Topmost="True"
         SystemDecorations="None"
-        Title="AvaloniaApplication2">
-        <views:MainView />
+        Title="Settings">
+    <StackPanel>
+        <TextBlock Text="Settings Page" />
+        <!-- Ajoutez d'autres contrôles ici -->
+    </StackPanel>
 </Window>
